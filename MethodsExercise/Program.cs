@@ -54,6 +54,8 @@ namespace MethodsExercise
 
             Sum();
             Mult();
+            Sub();
+            Divide();
         }
 
         public static void Sum()
@@ -61,26 +63,48 @@ namespace MethodsExercise
 
             //int sum = num1 + num2;-------DONE
 
-            //Console.WriteLine("Pick a number add: ");
-            //var num1 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Pick a second number add: ");
-            //var num2 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("What is the sum? ");
-            //Console.WriteLine(num1 + num2);
+            Console.WriteLine("Pick a number add: ");
+            var num1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Pick a second number add: ");
+            var num2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("What is the sum? ");
+            Console.WriteLine(num1 + num2);
         }
         public static void Mult()
         {
             //int mult = mult1 * mult2;-----DONE
 
-            //Console.WriteLine("Pick a number to multiple: ");
-            //int mult1 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("Pick a second number to multiple: ");
-            //int mult2 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("What is the product? ");
-            //Console.WriteLine(mult1 * mult2);
+            Console.WriteLine("Pick a number to multiple: ");
+            int mult1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Pick a second number to multiple: ");
+            int mult2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("What is the product? ");
+            Console.WriteLine(mult1 * mult2);
+
+        }
+        public static void Sub()
+        {
+            //int sub = sub1 - sub2;---------DONE
+
+            Console.WriteLine("Pick a number to Subtract: ");
+            int sub1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Pick a second number to Substract: ");
+            int sub2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("What is the product? ");
+            Console.WriteLine(sub1 - sub2);
 
         }
 
+        public static void Divide()
+        {
+            Console.WriteLine("Pick a number to divide: ");
+            int div1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Pick a second number to divide: ");
+            int div2 = int.Parse(Console.ReadLine());
+            Console.WriteLine("What is the product? ");
+            Console.WriteLine(div1 / div2);
+
+        }
     }   
 
 }
